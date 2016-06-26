@@ -1,0 +1,7 @@
+C:\Users\darkg\Documents\Proyecto .net\proyecto sin BDD\app3\Users\bin\Debug\Users.dll
+C:\Users\darkg\Documents\Proyecto .net\proyecto sin BDD\app3\Users\bin\Debug\Users.pdb
+C:\Users\darkg\Documents\Proyecto .net\proyecto sin BDD\app3\Users\bin\Debug\Datos.dll
+C:\Users\darkg\Documents\Proyecto .net\proyecto sin BDD\app3\Users\bin\Debug\Datos.pdb
+C:\Users\darkg\Documents\Proyecto .net\proyecto sin BDD\app3\Users\obj\Debug\Users.csprojResolveAssemblyReference.cache
+C:\Users\darkg\Documents\Proyecto .net\proyecto sin BDD\app3\Users\obj\Debug\Users.dll
+C:\Users\darkg\Documents\Proyecto .net\proyecto sin BDD\app3\Users\obj\Debug\Users.pdb

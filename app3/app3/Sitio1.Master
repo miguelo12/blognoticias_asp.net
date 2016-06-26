@@ -1,0 +1,117 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Sitio1.master.cs" Inherits="app3.Sitio1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<link rel="stylesheet" href="~/Style/layout.css" type="text/css" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="top">
+<form runat="server">
+<div class="wrapper">
+  <div id="header">
+    <div id="topnav">
+            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" DynamicHorizontalOffset="2" Font-Names="Georgia" Font-Size="15px" ForeColor="#232323" StaticSubMenuIndent="10px" Orientation="Horizontal" StaticDisplayLevels="2" Font-Bold="True" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" Height="20px">
+            <DynamicMenuItemStyle HorizontalPadding="2px" VerticalPadding="4px" />
+            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <StaticSelectedStyle />
+        </asp:Menu>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" SiteMapProvider="Web"/>
+    </div>
+    <div id="logo">
+      <h1><a href="index.aspx">WikiCompu  </a></h1>
+      <p>Busca lo que quieras...</p>
+    </div>
+    <br class="clear" />
+
+  </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br class="clear"/>
+</div>
+<div class="wrapper">
+    <asp:ContentPlaceHolder ID="Inicio" runat="server">
+
+    </asp:ContentPlaceHolder>
+</div>
+<div class="wrapper">
+  <div id="container">
+      <asp:ContentPlaceHolder ID="Medium" runat="server"></asp:ContentPlaceHolder>
+       <div id="content">
+          <asp:ContentPlaceHolder ID="Contenido" runat="server"></asp:ContentPlaceHolder>
+      <br/>
+      <br/>
+      <br class="clear" />
+     <div>
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+     </div>
+        </div>
+        <div id="column">
+            <asp:ContentPlaceHolder ID="Navegalogin" runat="server">
+            </asp:ContentPlaceHolder>
+           <asp:ContentPlaceHolder ID="MejorComentarista" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    <br class="clear" />
+  </div>
+</div>
+<div class="wrapper">
+  <div id="footer">
+    <div id="newsletter">
+      <h2>Noticias en tu correo!</h2>
+      <p>Se unos de los primeros en saber lo que sucede en el exterior inscribete.</p>
+        <fieldset>
+          <legend>News Letter</legend>
+          <asp:TextBox ID="TextBox1" runat="server" Text="Enter Email Here&hellip;"></asp:TextBox>
+          <asp:Button ID="news_go" runat="server" Text="GO" CssClass="boton" Width="50px" />
+        </fieldset>
+      <p>Cancela la incripción... <a href="#">Click aquí! &raquo;</a></p>
+    </div>
+    <div class="footbox">
+      <h2>Foro</h2>
+      <ul>
+        <li><a href="#">Computines</a></li>
+        <li><a href="#">Gamer</a></li>
+        <li><a href="#">Novedades</a></li>
+        <li><a href="#">Noticias</a></li>
+        <li class="last"><a href="#">Venta/Trueque</a></li>
+      </ul>
+    </div>
+    <div class="footbox">
+      <h2>WikiCompu</h2>
+      <ul>
+        <li><a href="#">¿Qué es wikicompu?</a></li>
+        <li><a href="#">Nuestro Lema</a></li>
+        <li  class="last"><a href="#">Ayuda</a></li>
+      </ul>
+    </div>
+    <div class="footbox">
+      <h2>FAQ</h2>
+      <ul>
+        <li><a href="#">Reglamento Basicos</a></li>
+        <li><a href="#">Reglamentos Avanzados</a></li>
+        <li class="last"><a href="#">¿Quiénes Somos?</a></li>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+
+<div class="wrapper">
+  <div id="copyright">
+    <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <br class="clear" />
+  </div>
+</div>
+</form>
+</body>
+</html>
+

@@ -1,0 +1,6 @@
+C:\Users\darkg\Documents\Proyecto .net\proyecto sin BDD\app3\Datos\bin\Debug\Datos.dll.config
+C:\Users\darkg\Documents\Proyecto .net\proyecto sin BDD\app3\Datos\bin\Debug\Datos.dll
+C:\Users\darkg\Documents\Proyecto .net\proyecto sin BDD\app3\Datos\bin\Debug\Datos.pdb
+C:\Users\darkg\Documents\Proyecto .net\proyecto sin BDD\app3\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\darkg\Documents\Proyecto .net\proyecto sin BDD\app3\Datos\obj\Debug\Datos.dll
+C:\Users\darkg\Documents\Proyecto .net\proyecto sin BDD\app3\Datos\obj\Debug\Datos.pdb

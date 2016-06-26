@@ -1,0 +1,13 @@
+﻿@charset "utf-8";
+/*
+Template Name: Darkness
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+File: Tables CSS
+*/
+
+.tabla table {width:115%; table-layout:auto; text-align:center; vertical-align:central; margin: 0px auto; margin-left:-80px;}
+.tabla table th{table-layout:auto; padding:10px;}
+.tabla table td{vertical-align:top; padding:10px;}

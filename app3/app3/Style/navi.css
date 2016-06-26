@@ -1,0 +1,59 @@
+﻿@charset "utf-8";
+/*
+Template Name: Darkness
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+File: Navigation CSS
+*/
+
+#header #topnav{display:block; float:right; 
+padding:0; font-size:13px; font-family:Verdana, Arial, Helvetica, sans-serif; text-align:right;
+    margin-left: 100px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 45px;
+}
+#header ul{margin:0px; padding:0; list-style:none; text-align:center}
+#header li{display:inline; margin-right:45px;}
+#header li a:link, #header li a:visited, #header li a:hover{margin:0; padding:0 3px 10px 3px; color:#EEEEEE; background-color:transparent; border-bottom:1.5px solid rgba(0, 0, 0, 0.00); margin-right: 10px}
+#header li a:hover, #header li.active a{color:#EEEEEE; border-bottom-color:#FDC609;}
+
+/* ----------------------------------------------Column Navigation------------------------------------- */
+
+#column .subnav{display:compact; width:270px; padding:25px; background-color:#181d23; margin-bottom:30px;}
+#column .subnav h2{margin:0 0 20px 0; padding:0 0 14px 0; font-size:20px; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif; color:#666666; background-color:#181d23; line-height:normal; border-bottom:1px dashed #666666;}
+#column .subnav ul{margin:0; padding:0; list-style:none;}
+#column .subnav li{margin:0 0 3px 0; padding:0;}
+#column .subnav ul ul, #column .subnav ul ul ul, #column .subnav ul ul ul ul, #column .subnav ul ul ul ul ul{border-top:none; padding-top:0;}
+#column .subnav a{display:block; margin:0; padding:5px 10px 5px 20px; color:#d5d5d5; background-image:url("images/yellow_file.gif"); background-position:10px center; background-repeat:no-repeat; background-color:#181d23; text-decoration:none; border-bottom:1px dotted #666666;}
+#column .subnav a:hover{color:#ffd800; background-color:#232a33;}
+#column .subnav ul ul a, #column .subnav ul ul ul a, #column .subnav ul ul ul ul a, #column .subnav ul ul ul ul ul a{background:url("images/white_file.gif") no-repeat #1F1F1F;}
+#column .subnav ul ul a{padding-left:40px; background-position:30px center;}
+#column .subnav ul ul ul a{padding-left:50px; background-position:40px center;}
+#column .subnav ul ul ul ul a{padding-left:60px; background-position:50px center;}
+#column .subnav ul ul ul ul ul a{padding-left:70px; background-position:60px center;}
+#column .toper {height:15px; margin-right: 5px}
+#column .toper:hover {color:ActiveBorder}
+#column .boton:hover {color:black}
+#column .boton {margin-top:12px; height:30px;width:65px}
+#column table.casilla, #column table.boton {text-align: center}
+
+/* ----------------------------------------------Wiki Navigation------------------------------------- */
+
+
+#Wikicolum .subnav {display:block ; width:280px; padding:25px; background-color:#181d23; margin-bottom:30px;}
+#Wikicolum .subnav h2{margin:0 0 20px 0; padding:0 0 14px 0; font-size:20px; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif; color:#666666; background-color:#181d23; line-height:normal; border-bottom:1px dashed #EEEEEE;}
+#Wikicolum .subnav ul{margin:0; padding:0; list-style:none;}
+#Wikicolum .subnav li{margin:0 0 3px 0; padding:0;}
+#Wikicolum .subnav ul ul, #Wikicolum .subnav ul ul ul, #Wikicolum .subnav ul ul ul ul, #Wikicolum .subnav ul ul ul ul ul{border-top:none; padding-top:0;}
+#Wikicolum .subnav a{display:block; margin:0; padding:5px 10px 5px 20px; color:#d5d5d5; background-image:url("images/yellow_file.gif"); background-position:10px center; background-repeat:no-repeat; background-color:#181d23; text-decoration:none; border-bottom:1px dotted #666666;}
+#Wikicolum .subnav a:hover{color:#ffd800; background-color:#232a33;}
+#Wikicolum .subnav ul ul a, #Wikicolum .subnav ul ul ul a, #Wikicolum .subnav ul ul ul ul a, #Wikicolum .subnav ul ul ul ul ul a{background:url("images/white_file.gif") no-repeat #1F1F1F;}
+#Wikicolum .subnav ul ul a{padding-left:40px; background-position:30px center;}
+#Wikicolum .subnav ul ul ul a{padding-left:50px; background-position:40px center;}
+#Wikicolum .subnav ul ul ul ul a{padding-left:60px; background-position:50px center;}
+#Wikicolum .subnav ul ul ul ul ul a{padding-left:70px; background-position:60px center;}
+#Wikicolum .toper {height:15px; margin-right: 5px}
+#Wikicolum .toper:hover {color:ActiveBorder}

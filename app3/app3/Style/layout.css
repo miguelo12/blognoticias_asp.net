@@ -1,0 +1,196 @@
+﻿@charset "utf-8";
+/*
+Template Name: Darkness
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+File: Layout CSS
+*/
+
+@import url("navi.css");
+@import url("forms.css");
+@import url("tables.css");
+
+
+html{overflow-y:scroll;}
+body{margin:0; padding:0; font-size:12px; font-family:verdana, Arial, Helvetica, sans-serif; color:#EEEEEE; background: url("images/body.png") no-repeat fixed;}
+
+.justify{text-align:justify;}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+.nostart{margin:0; padding:0; list-style-type:none;}
+
+.clear{clear:both;}
+br.clear{clear:both; margin-top:-15px;}
+
+a{outline:none}
+
+.fl_left, .imgl{float:left;}
+.fl_right, .imgr{float:right;}
+
+img{display:block; margin:0; padding:0; border:0;}
+.imgl, .imgr{border:1px solid #EEEEEE; padding:5px;}
+.imgl{margin:0 8px 8px 0; clear:left;}
+.imgr{margin:0 0 8px 8px; clear:right;}
+
+/* ----------------------------------------------Wrapper------------------------------------- */
+
+div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{margin:0; padding:0 0 8px 0; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif;}
+div.wrapper h1, div.wrapper h2 {font-size:30px;  border-bottom:1px dotted #EEEEEE;}
+div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{font-size:20px;}
+/* ----------------------------------------------Generalise------------------------------------- */
+
+#intro, #latest, #breadcrumb, #footer, #copyright {display:block; position:relative; width:1070px; margin:0 auto;}
+#container {width:1040px; display:block; position:relative; margin:0 auto;}
+#header {position:fixed; background:url("images/header.png") center;}
+#container .inicio2, #container .holder {background-color: rgba(29, 47, 75, 0.92);}
+#container .inicio2 {width:660px; height:1110px; padding:20px}
+#container .holder {padding:10px; width:300px}
+/* ----------------------------------------------Header---background-color:#222831---------------------------------- */
+
+#header{display:block; width:100%; margin:0 auto 0px auto; 
+    padding:5px 20px 15px 20px; color:#DBDBDB ; font-family:Georgia, "Times New Roman", Times, serif;
+    height: 87px;
+    z-index: 4;
+}
+#header #logo{display:block; float:left; width:350px;
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+   
+}
+#header #logo h1, #header #logo p{margin-top:5px; margin-right:5px; padding:0; line-height:normal;}
+#header #logo h1{margin:0; padding:0; font-size:42px; border:none; text-align: center; letter-spacing: 4px}
+#header h1 a{color:#e8e8e8;}
+#header #logo p{letter-spacing: 5px;text-align:center}
+
+/* ----------------------------------------------BreadCrumb------------------------------------- */
+
+#breadcrumb{padding:30px 0; border-bottom:1px dotted #999999;}
+#breadcrumb a{color:#FDC609; background-color:#131313;}
+#breadcrumb ul{margin:0; padding:0; list-style:none;}
+#breadcrumb ul li{display:inline;}
+#breadcrumb ul li.current a{text-decoration:underline;}
+
+/* ----------------------------------------------Latest------------------------------------- */
+
+#latest{padding:25px 0 0 0;}
+#latest .fl_left{display:block; float:left; width:575px; height:330px; margin-left:15px}
+#latest .fl_right{display:block; float:right; width:410px; height:280px; padding:25px; color:#EEEEEE; background-color:#18898e; margin-left:15px}
+#latest .fl_right h2, #latest .fl_right p{margin:0 0 12px 0; padding:0; border:none; line-height:normal;}
+#latest .fl_right h2{font-size:30px; margin-top:20px; border-bottom:solid 2px #ffffff}
+#latest .fl_right p{line-height:2.2em; text-indent: 0.5em}
+#latest .fl_right ul{margin:0; padding:0; list-style:none;}
+#latest ul li{display:block; float:left; width:100px; height:100px; margin:0 15px 0 0; padding:4px; border:1px solid #333333;}
+#latest ul li.last{margin-right:0;}
+
+/* ----------------------------------------------Intro------------------------------------- */
+
+#intro{padding:25px 0 15px 0;}
+#intro ul{margin:0; padding:0; list-style:none;}
+#intro li{display:block; float:left; width:300px; margin:0 30px 0 0; padding:0;}
+#intro li.last{margin-right:0;}
+#intro h2, #intro p, #intro img, #intro div{margin:0 0 20px 0; padding:0;}
+#intro h2{padding-bottom:8px; color:#FFFFFF; background-color:#131313;}
+#intro div.imgholder{display:block; width:300px;}
+#intro div.imgholder img{margin:0; padding:0; border:none;}
+#intro p.readmore{margin:0;}
+#intro p.readmore a{padding:5px 15px; font-weight:bold; color:#FDC609; background-color:#1E1E1E;}
+
+/* ----------------------------------------------Content------------------------------------- */
+
+#container{padding:30px 0; line-height:1.4em; color:#EEEEEE; background-color:transparent; margin-top: 15px;}
+#container a{color:#ffd800; background-color:rgba(29, 47, 75, 0.92);}
+#container .tabla a{color:cadetblue; background-color:transparent; margin:0 auto;}
+#container .tabla {margin:0 auto;}
+#container .tabla1 a{color:cadetblue; background-color:transparent; margin:0 auto; width: 100%}
+#container .tabla1 {margin:0 auto;}
+#container h1{margin-bottom:20px; padding-bottom:8px; border-bottom:1px dotted #EEEEEE; text-align:center}
+#container h2, #container h3{margin-bottom:20px; padding-bottom:8px;}
+#content{display:block; float:left; width:625px;}
+#content p {text-indent: 0.5em}
+.noticias {border-bottom:1px groove #EEEEEE ;margin-bottom:20px; padding-bottom:8px;}
+.registrodiv {text-align:left; margin-right: 10px; }
+.registrodiv table {margin: 0 auto;}
+.registrodiv p {text-align:center;}
+
+/* Wiki content */
+
+#Wikicontent{display:block; float:right; width:700px;}
+
+/* Comments */
+
+#comments{margin-bottom:40px;}
+#comments .commentlist{margin:0; padding:0;}
+#comments .commentlist ul{margin:0; padding:0; list-style:none;}
+#comments .commentlist li.comment_odd, #comments .commentlist li.comment_even{margin:0 0 10px 0; padding:15px; list-style:none;}
+#comments .commentlist li.comment_odd{color:#CCCCCC; background-color:#333333;}
+#comments .commentlist li.comment_odd a{color:#FDC609; background-color:#333333;}
+#comments .commentlist li.comment_even{color:#CCCCCC; background-color:#1E1E1E;}
+#comments .commentlist li.comment_even a{color:#FDC609; background-color:#1E1E1E;}
+#comments .commentlist .author .name{font-weight:bold;}
+#comments .commentlist .submitdate{font-size:smaller;}
+#comments .commentlist p{margin:10px 5px 10px 0; padding:0; font-weight:normal; text-transform:none;}
+#comments .commentlist li .avatar{float:right; border:1px solid #EEEEEE; margin:0 0 0 10px;}
+
+/* ----------------------------------------------Column------------------------------------- */
+
+#column {display:block; float:right; width:300px;}
+.flickrbox ul{margin:0; padding:0; list-style:none;}
+.flickrbox li{display:block; float:left; width:80px; height:80px; margin:0 15px 15px 0; padding:4px; border:0px solid #EEEEEE;}
+.flickrbox li.last{margin-right:0;}
+#column .holder, #column #featured{display:block; margin-bottom:10px;}
+#column .holder p{line-height:1.6em;}
+#column h2{font-size:20px;}
+#column .holder h2.title{display:block; width:100%; height:65px; margin:0; padding:15px 0 0 0; font-size:20px; line-height:normal; border-bottom:1px dashed #666666;}
+#column .holder h2.title img{float:left; margin:-15px 8px 0 0; padding:5px; border:1px solid #EEEEEE;}
+#column .holder p.readmore{display:block; width:100%; font-weight:bold; text-align:right; line-height:normal;}
+#column div.imgholder{display:block; width:290px; margin:0 0 10px 0; padding:4px; border:1px solid #EEEEEE;}
+#column .lastnuevo {border-bottom:1px groove #EEEEEE;}
+#column .lastnuevo{text-align:center}
+
+/* Wiki columna */
+#Wikicolum {display:block; float:left; width:280px;}
+#Wikicolum .holder, #Wikicolum #featured{display:block; margin-bottom:10px;}
+#Wikicolum .holder p{line-height:1.6em;}
+#Wikicolum h2{font-size:20px;}
+#Wikicolum .holder h2.title{display:block; width:100%; height:65px; margin:0; padding:15px 0 0 0; font-size:20px; line-height:normal; border-bottom:1px dashed #EEEEEE;}
+#Wikicolum .holder h2.title img{float:left; margin:-15px 8px 0 0; padding:5px; border:1px solid #EEEEEE;}
+#Wikicolum .holder p.readmore{display:block; width:100%; font-weight:bold; text-align:right; line-height:normal;}
+#Wikicolum div.imgholder{display:block; width:290px; margin:0 0 10px 0; padding:4px; border:1px solid #EEEEEE;}
+
+/* Featured Block */
+
+#column #featured a{color:#ffd800; background-color:#393E46;}
+#column #featured ul, #column #featured h2, #column #featured p{margin:0; padding:0; list-style:none;}
+#column #featured li{display:block; width:250px; margin:0; padding:20px 25px; color:#666666; background-color:#393E46;}
+#column #featured li p{line-height:1.6em;}
+#column #featured li p.imgholder{display:block; width:240px; height:90px; margin:20px 0 15px 0; padding:4px; color:#EEEEEE; background-color:#333333; border:1px solid #EEEEEE;}
+#column #featured li h2{margin:0; padding:0 0 14px 0; font-size:20px; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif; color:#666666; background-color:#1F1F1F; line-height:normal; border-bottom:1px dashed #EEEEEE;}
+#column #featured p.readmore{display:block; width:100%; margin-top:15px; font-weight:bold; text-align:right; line-height:normal;}
+#column #latestnews{display:block; width:100%; margin:0; padding:0; list-style:none;}
+#column #latestnews li{display:block; margin:0 0 20px 0; padding:0 0 15px 0; border-bottom:1px groove #EEEEEE;}
+#column #latestnews li.last{margin-bottom:0;}
+#column #latestnews p{margin:0 0 5px 0; padding:0;}
+#column #latestnews p.readmore{margin:0; padding:0;}
+#column #latestnews .imgl{margin:0 10px 10px 0; padding:4px;}
+
+/* ----------------------------------------------Footer------------------------------------- */
+
+#footer{display:block; position:relative; width:1000px; margin:0 auto; padding:20px; color:#EEEEEE; background-color:#181d23;}
+#footer a{color:#ffd800; background-color:#181d23;}
+#footer h2{margin-bottom:10px; border-bottom-color:#EEEEEE;}
+#footer p, #footer ul, #footer a{margin:0; padding:0; font-weight:normal; list-style:none; line-height:normal;}
+#footer .footbox{display:block; float:right; width:190px; margin:0 0 0 15px; padding:0;}
+#footer li{margin-bottom:3px;}
+#footer .last{margin:0;}
+#newsletter{display:block; float:left; width:300px;}
+
+/* ----------------------------------------------Copyright------------------------------------- */
+
+#copyright{display:block; position:relative; width:1000px; margin:0 auto; padding:20px; color:#dedede; background-color:#151a1e;}
+#copyright a{color:#d5cfcf; background-color:#151a1e;}
+#copyright p{margin:0; padding:0;}
